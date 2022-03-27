@@ -100,7 +100,7 @@
         </div>
     </div>
     <div class="w-175">
-        <nav class="flex items-center justify-between text-xs">
+        <nav class="flex items-center justify-between text-xs"/>
     </div>
     <div class="w-175">
         <nav class="flex items-center justify-between text-xs">
