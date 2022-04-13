@@ -109,8 +109,8 @@
         <div class="mt-8">
             {{ $slot }}
         </div>
-    </div>
-</main>
-<livewire:scripts />
-</body>
+      </div>
+    </main>
+    <livewire:scripts />
+  </body>
 </html>

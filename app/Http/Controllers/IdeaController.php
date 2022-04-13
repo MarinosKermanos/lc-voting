@@ -10,7 +10,7 @@ class IdeaController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function index()
     {
@@ -46,17 +46,16 @@ class IdeaController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Models\Idea  $idea
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function show(Idea $idea)
     {
-        dd("Hello!!");
         return view('idea.show', [
             'idea' => $idea,
         ]);
     }
 
-    /**
+    /**s
      * Show the form for editing the specified resource.
      *
      * @param  \App\Models\Idea  $idea
